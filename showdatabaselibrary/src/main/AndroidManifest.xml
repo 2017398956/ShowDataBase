@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.personal.nfl.showdatabaselibrary">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <application>
+        <activity android:name="com.personal.nfl.showdatabaselibrary.activity.DBInsightActivity" />
+        <activity android:name="com.personal.nfl.showdatabaselibrary.activity.ShowDBTableActivity" />
+        <activity android:name="com.personal.nfl.showdatabaselibrary.activity.ShowTableActivity" />
+
+        <service android:name="com.personal.nfl.showdatabaselibrary.service.DBInsightService" />
+    </application>
+</manifest>
